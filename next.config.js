@@ -65,7 +65,7 @@ module.exports = () => {
     eslint: {
       dirs: ['app', 'components', 'layouts', 'scripts'],
     },
-    // basePath: '/',
+    basePath: '',
     output: 'export',
     images: {
       remotePatterns: [
@@ -74,7 +74,6 @@ module.exports = () => {
           hostname: 'picsum.photos',
         },
       ],
-
       unoptimized: true,
     },
     // async headers() {
